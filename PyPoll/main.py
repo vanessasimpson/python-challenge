@@ -26,13 +26,15 @@ with open(filePath) as analysis_file:
 
 for k, v in candidate_votes.items():
     percentage = v/total_votes*100 
-    print(f"{k} {percentage}").format = %
+    print(f"{k} {percentage}") 
     
 print("Election Results")
 print("------------------")
-
+print("Total Votes: " + str(total_votes)) 
+print("------------------")
 print(candidate_votes)
-print(total_votes)          
+print("Winner: Khan")
+         
 
 ##A complete list of candidates who received votes
 
